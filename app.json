@@ -1,0 +1,27 @@
+{
+  "name": "Bosco-MD",
+  "description": "Bosco-MD whatsapp bot made by @DarkWinzo with baileys",
+  "repository": "https://github.com/DarkWinzo/Bosco-MD",
+  "logo": "https://telegra.ph/file/f40d0ef77439f516c050f.jpg",
+  "keywords": ["bosco", "nodejs", "bot", "whatsapp bot", "DarkWinzo"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
