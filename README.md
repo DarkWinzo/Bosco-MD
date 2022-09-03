@@ -5,7 +5,7 @@
 
 
 <div align="center">
-<img src="media/image/images.png" alt="DarkWinzo" width="3600" />
+<img src="media/image/images.png" alt="DarkWinzo" width="660" />
 
 # Bosco Bot
 <p align="center">
